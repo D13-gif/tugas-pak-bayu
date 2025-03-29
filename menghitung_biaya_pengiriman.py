@@ -1,7 +1,7 @@
 # menghitung biaya pengiriman
 ## masukan berat paket dan tarif pengiriman
-weight = float(input("Enter the package weight in kilograms: "))
-rate = float(input("Enter the shipping rate per kilogram: "))
+weight = float(input("Masukkan berat paket (kg): "))
+rate = float(input("Masukkan tarif per kg: "))
 ## menghitung biaya pengiriman
 shipping_cost = weight * rate
 ## menampilkan hasil
